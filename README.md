@@ -1,3 +1,5 @@
+### This project is a complete machine learning Pipeline for flower type prediction. It covers the entire process, including data processing, model training, experiment tracking with Kubeflow, Docker containerization, and Kubernetes to manage and run the workflow efficiently. It demonstrates how to build a simple, organized, and reproducible ML workflow.
+
 # Installation of Kubeflow Pipelines
 
 The best guide to install Kubeflow or any of its components is the official documentation. 

@@ -32,9 +32,9 @@ Model Deployment
 # Technologies Used
 
 - Python 3.11
-- Kubeflow Pipelines v2
-- Docker
-- Kubernetes (Kind)
+- Kubeflow Pipelines v2  https://www.kubeflow.org/docs/started/
+- Docker  https://docs.docker.com/desktop/setup/install/
+- Kubernetes (Kind)  
 - Pandas
 - Scikit-learn
 - Joblib
@@ -66,89 +66,14 @@ movie-ai-model1/
 
 ---
 
-# Workflow
-
-## 1. Collect
-
-Generates the movie dataset.
-
-Output
-
-```
-Dataset
-```
-
----
-
-## 2. Clean
-
-- Removes duplicates
-- Removes null values
-
-Output
-
-```
-Clean Dataset
-```
-
----
-
-## 3. Feature Engineering
-
-Creates additional features.
-
-Example
-
-```
-engagement = watch_time × liked_movie
-```
-
----
-
-## 4. Train
-
-Trains a Random Forest Classifier.
-
-Algorithm
-
-```
-RandomForestClassifier
-```
-
-Model is stored as a Kubeflow Model artifact.
-
----
-
-## 5. Evaluate
-
-Calculates
-
-- Accuracy
-
-Stores metrics as Kubeflow Metrics artifact.
-
----
-
-## 6. Deploy
-
-Simulates deployment of the trained model.
-
-This component can later be extended to:
-
-- FastAPI
-- MLflow
-- KServe
-- AWS SageMaker
-
----
 
 # Installation
 
 ## Clone
 
 ```bash
-git clone <repository-url>
-cd movie-ai-model1
+git clone https://github.com/Chaitanya-2004-code/MLOps.git
+cd MLOps
 ```
 
 ---
@@ -220,7 +145,9 @@ kind load docker-image movie-ai:v1 --name movie-ai
 # Install Kubeflow Pipelines
 
 Install the standalone Kubeflow Pipelines manifests (follow the official Kubeflow Pipelines documentation for the version you are using).
+- Kubeflow Pipelines v2  https://www.kubeflow.org/docs/started/
 
+commands given in this is for linus convert it to windows by using any ai 
 ---
 
 # Access Kubeflow UI
@@ -270,35 +197,6 @@ Artifacts
 
 ---
 
-# Skills Demonstrated
-
-- MLOps
-- Kubeflow Pipelines
-- Kubernetes
-- Docker
-- Machine Learning
-- Model Deployment
-- Pipeline Orchestration
-- Artifact Management
-- Model Evaluation
-- Python Development
-
----
-
-# Future Improvements
-
-- MLflow Integration
-- FastAPI Deployment
-- CI/CD using GitHub Actions
-- Prometheus Monitoring
-- Grafana Dashboard
-- Model Registry
-- Real-world Dataset
-- Hyperparameter Tuning
-- Automatic Retraining
-- Cloud Deployment (AWS/GCP/Azure)
-
----
 
 # Author
 

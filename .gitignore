@@ -1,0 +1,64 @@
+venv/
+
+__pycache__/
+
+*.pyc
+
+*.pkl
+
+*.yaml
+
+.idea/
+
+.vscode/
+
+.ipynb_checkpoints/
+
+data/
+
+model/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Model files
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kubeflow temporary files
+*.tmp
+
+# Build
+dist/
+build/
+
+# Environment
+.env.*
+
+# macOS
+.AppleDouble
+.LSOverride

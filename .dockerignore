@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+.git/
+.gitignore
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pkl
+data/
+model/

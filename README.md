@@ -166,15 +166,27 @@ http://localhost:8080
 
 # Run Pipeline
 
-1. Upload
+
+## How to Create / Upload Pipeline
+![MLOps](https://github.com/Chaitanya-2004-code/MLOps/blob/main/asset/img1.png)
+
+## 1. Upload
 
 ```
 movie_ai_pipeline.yaml
 ```
 
-2. Create Run
+##  Upload yaml
+![MLOps](https://github.com/Chaitanya-2004-code/MLOps/blob/main/asset/img2.png)
 
-3. Execute
+
+## 2. Create Run
+
+![MLOps](https://github.com/Chaitanya-2004-code/MLOps/blob/main/asset/img3.png)
+## 3. Execute
+
+![MLOps](https://github.com/Chaitanya-2004-code/MLOps/blob/main/asset/img4.png)
+
 
 ---
 
@@ -197,6 +209,11 @@ Artifacts
 
 ---
 
+## Output
+![MLOps](https://github.com/Chaitanya-2004-code/MLOps/blob/main/asset/op1.png)
+
+
+![MLOps](https://github.com/Chaitanya-2004-code/MLOps/blob/main/asset/op2.png)
 
 # Author
 
